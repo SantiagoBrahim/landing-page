@@ -7,6 +7,10 @@ body{
     background: #1b1b1b;
     color: #fff;
 }
+
+
+/* =============== HEADER =============== */
+
 header{
     background-color: #353535;
     display: flex;
@@ -24,7 +28,7 @@ header{
 }
 .titulo{
     font-family: "Bebas Neue", sans-serif;
-    font-size: 6rem;
+    font-size: 5.3rem;
     text-shadow: 2px 2px 4px #FF9400;
 }
 .links{
@@ -41,6 +45,9 @@ header{
     text-decoration: none;
     color: #fff;
 }
+
+
+/* =============== HERO =============== */
 
 .hero{
     margin-top: 50px;
@@ -90,6 +97,8 @@ header{
     font-weight: 600;
 }
 
+
+/* =============== INFO =============== */
 .info{
     margin-top: 35px;
     display: flex;
@@ -102,4 +111,51 @@ header{
     text-align: center;
     border-bottom: 2px solid #FF9400;
     border-left: 2px solid #FF9400;
+}
+
+
+/* =============== CARDS =============== */
+.cards-section{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.cards-section h3{
+    font-family: "Bebas Neue";
+    font-size: 2.2rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+.cards-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+    gap: 40px;
+}
+
+.card{
+    text-align: center;
+    font-family: "Roboto Condensed", serif;
+    background: linear-gradient(to bottom,#000 10%, #1B1B1B 100%);
+    border-top: 2px solid #FF9400;
+    padding: 20px;
+}
+
+.card h3{
+    font-size: 50px;
+}
+
+.card h4{
+    font-size: 20px;
+    font-weight: 900;
+    color: #FF9400;
+    border-bottom: 1px solid #FF9400;
+    border-top: 1px solid #FF9400;
+    margin-bottom: 10px;
+    background: linear-gradient(to top, #000, #1B1B1B);
 }
