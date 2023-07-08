@@ -1,0 +1,75 @@
+@media (max-width: 1200px) {
+    /* HERO */
+    .hero{
+        display: flex;
+        justify-content: center;
+    }
+
+    .container{
+        max-width: 1000px;
+    }
+
+    .container > div{
+        gap: 20px;
+    }
+
+    .hero img{
+        max-width: 550px;
+        height: 100%;
+        object-fit: cover;
+    }
+
+
+    /* CARDS */
+    .card{
+        height: 400px;
+    }
+
+    /* FOOTER */
+    .local{
+        width: 300px;
+    }
+    .local p{
+        font-size: .8rem;
+    }
+    .info-section{
+        justify-content: center;
+    }
+    .redes{
+        justify-content: center;
+        padding: 40px;
+    }
+}
+
+@media (max-width: 992px){
+
+
+    /* HEADER */
+    header{
+        max-width: 100vw;
+    }
+    .titulo{
+        font-size: 4.5rem;
+    }
+
+
+    /* NAVBAR */
+    .links a{
+        font-size: 1.1rem;
+    }
+
+    /* HERO */
+    .container{
+        max-width: 800px;
+    }
+
+    .hero img{
+        max-width: 400px;
+    }
+
+    .info p{
+        max-width: 800px;
+    }
+
+
+}
