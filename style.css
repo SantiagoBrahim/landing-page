@@ -69,6 +69,50 @@ header{
     color: var(--orange);
 }
 
+.check-label{
+    display: none;
+    font-size: 2rem;
+    margin-right: 20px;
+}
+#check{
+    display: none;
+}
+
+.check-label:hover{
+    color: var(--orange);
+    cursor: pointer;
+}
+
+.menu{
+    background: linear-gradient(to bottom, var(--darkgray) 20%, var(--black) 100%);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: none;
+}
+
+.navbar-responsive{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    height: 60%;
+}
+.navbar-responsive ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+.navbar-responsive li{
+    font-size: 1.5rem;
+    padding: 5px;
+    border-bottom: 2px solid var(--orange);
+}
+
+#check:checked + .menu{
+    display: block;
+}
 
 /* =============== HERO =============== */
 
@@ -159,8 +203,9 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     max-width: 80%;
-    gap: 40px;
+    gap: 70px;
 }
 
 .card{
